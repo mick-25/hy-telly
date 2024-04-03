@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:508cb84447ac7dd688a6aa3393e4c6b79ac6d3728e81e7a6fd0cc86711802796
-size 532
+{
+  "name": "your-tv-streams",
+  "version": "1.0.0",
+  "description": "A Stremio add-on for streaming TV series.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stremio",
+    "addon",
+    "stream",
+    "tv",
+    "series"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "stremio-addon-sdk": "^1.2.0"
+  }
+}
+
